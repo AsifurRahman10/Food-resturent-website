@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    padding: 15px 25px 15px 25px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.btn-container{
+    text-align: center;
+}
+.hero{
+    height: 919px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),  url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.hero-content{
+    width: 1023px;
+    height: 393px;
+    margin: 0 auto;
+}
+
+.hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center; 
+    font-family: Work Sans;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+.hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-family: Work Sans;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero .hero-content .description{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.card{
+    width: 1320px;
+    margin: 50px auto;
+    /* border: 1px dotted rgb(30, 30, 30); */
+    }
+
+.card .container-subtitle{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    margin-bottom: 16px;
+}
+
+.container-title{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+}
+
+.card-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card-all{
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+.card-image{
+    width: 424px;
+}
+.card-image img{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.card-info{
+   
+}
+
+.restaurant-name{
+    /* background-color: rgba(82, 195, 3, 0.15); */
+    /* height: 57px; */
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 187px;
+    padding: 14px 32px;
+    margin-bottom: 24px;
+    background: rgba(82, 195, 3, 0.15);
+    border-radius: 8px;
+}
+
+.sell-percent{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+    margin-bottom: 24px;
+}
+
+.sell-description{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+    margin-bottom: 64px;
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.about-image{
+    width: 50%;
+}
+
+.about-info{
+    width: 50%;
+    text-align: center;
+
+}
+
+
+
+.about-heading{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+    margin-top: 136px;
+    margin-bottom: 24px;
+}
+
+.about-description{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+    margin-bottom: 48px;
+}
+
+.line{
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+.about-follow{
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    color: rgb(16, 16, 16);
+    opacity: 0.7;
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+    margin-left: 32px;
+}
+
+.footer{
+    height: 671px;
+    background-image:  url("../assets/social-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;   
+}
+.footer-info{
+    text-align: center;
+    padding-top: 137px;
+}
+
+.footer-heading{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    color: rgb(16, 16, 16);
+   
+    
+}
+
+.footer-description{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgb(16, 16, 16);
+}
+
